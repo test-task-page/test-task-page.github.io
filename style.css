@@ -1,0 +1,282 @@
+body {
+	background-image: url('imgs/pattern-basic.png');
+	background-repeat: repeat;
+	font-family:  "Helvetica", "Arial", sans-serif;
+}
+header{
+	margin-bottom: 24px;
+}
+
+nav{
+	width: 100%;
+	height: auto;
+	display: block;
+	padding: 12px 0px 12px 0px;
+
+	background: #19a80b;
+	background: -moz-linear-gradient(top, #19a80b 0%, #17960b 100%);
+	background: -webrit-linear-gradient(top, #19a80b 0%, #17960b 100%);
+	background: linear-gradient(to bottom, #19a80b 0%, #17960b 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#19a80b', endColorstr='#17960b', GradientType=0);
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.38);
+	-moz-box-shadow:0px 1px 1px 0px rgba(0,0,0,0.38);
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.38);
+}
+ul{
+    list-style: square;                        
+   }
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	color:#fff;
+	font-size: 13px;
+	margin-right: 12px;
+}
+nav ul li a{
+	color:#fff;
+	border:none;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #fff;
+	border-bottom: 1px solid rgba(255,255,255,0.6);
+	text-decoration: none;
+}
+.logo-paddings .text-right{
+	margin-top: 10px;
+}
+
+.image-text{
+	width: 100%;
+	text-align: center;
+	color:#fff;
+	background-image:url("imgs/Annual_DP_Report_2013_header_LP.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 180px;
+	line-height: 0.5em;
+}
+h2 span{
+	color:#f4de25;
+}
+
+.btn-success{
+	margin-top:30px;
+	margin-bottom: 30px;
+	background-image: linear-gradient(to bottom,#5cb85c 20%, #19a80b 80%,#17960b 100%);
+}
+.form-horizontal .control-label {
+    text-align: left;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+#text{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 50px;
+
+}
+
+#text h2{
+	font-size: 25px;
+	font-weight: bolder;
+}
+#text h3{
+	color:#fff;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+#second{
+	margin-left: 40px;
+}
+.preview {
+	margin-left: 30px;
+}
+.preview2{
+	margin-top: 10px;
+}
+.span{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.raquo{
+	color: #333;
+}
+.nav-active{
+	font-weight: bolder;
+}
+.logo-paddings{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.text-right img{
+	padding-left: 10px;
+}
+.left{
+	margin-left: -40px;
+}
+.text-center{
+	padding-top: 30px;
+	color:#808080;
+}
+#click{
+	margin-top: -25px;
+	margin-left: 3px;
+}
+#click2{
+	margin-top: -65px;
+}
+.page{
+	background-color: #fff;
+	border: 1px solid rgba(214,214,214,1);
+	border-radius: 3px;
+	display: block;
+	padding: 20px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.page h3{
+	font-size: 18px;
+	line-height: 1.4em;
+	color: #333;
+}
+.page-tabs{
+	margin-right: 12px;
+	border: none;
+	margin-top: -1px;
+}
+.nav-tabs li a{
+	border-color: #ddd #ddd #ddd;
+	border-bottom: none;
+	color:#333;
+	font-weight: bold;
+	padding: 10px 24px;
+	background-color: #eee;
+}
+.nav-tabs li a:hover{
+	border-color: #eee #ddd #ddd;
+	background-color: transparent;
+}
+.container-fluid{
+	max-width: 1170px;
+}
+.well{
+	margin-top: 25px;
+	box-shadow: inset 0px 0px 0px 6px #fff,
+	            0px 0px 6px 1px #dcdcdc;
+}
+.form-control{
+	height: 25px;
+	border-radius: 0;
+	padding: 0px;
+}
+.form-horizontal .control-label {
+     padding-top: 0px;
+}
+legend{
+	text-align: center;
+	font-weight: bold;
+	color: #19a80b; 
+}
+label span{
+	color:red;
+	font-size: 22px;
+}
+.btn-success{
+	padding: 10px 40px;
+}
+.footer{
+	font-size: 11px;
+}
+.footer-links li{
+	display: inline-block;
+	margin-right: 6px;
+	padding-right: 8px;
+	border-right: 1px solid #ccc;
+	list-style: none;
+}
+.footer-links li:last-child{
+	border:none;
+}
+.footer-links li a, .footer-links li a:hover{
+	color:#808080;
+	text-decoration: none;
+}
+.footer-links li a:hover{
+	border-bottom:1px solid #ccc;
+}
+@media screen and (max-width: 1200px){
+
+#text h2{
+	font-size: 1.3vw;
+}
+#text h3{
+    font-size: 1vw;	
+}
+}
+@media (min-width: 990px) and (max-width: 1200px){
+.preview {
+	margin-left: 0px;
+}
+}
+
+@media screen and (min-width: 990px){
+body {
+	letter-spacing:1px;
+}
+form{
+	letter-spacing:normal;
+}
+}
+@media screen and (max-width: 990px){
+.page-tabs {
+    margin-right: 12px;
+    border: none;
+    margin-top: -41px;
+}
+.tab-content{
+	margin-top: -50px;
+}
+#text{
+	padding-top: 20px;
+}
+}
+@media screen and (max-width: 767px){
+
+.page-tabs {
+    margin-top: 0px;
+    margin-left: 12px;
+}
+.nav {
+    margin-bottom: -40px;
+}
+@media screen and (max-width: 550px){
+.logo-paddings .text-right	img{
+	width: 80%;
+}
+.tab-content{
+	margin-top: -100px;
+}
+#text{
+	padding-top: 5px;
+}
+.image-text{
+	
+	line-height: 0.1em;
+}
+}
+@media screen and (max-width: 380px){
+.image-text{
+	background-size: 100% 50px;
+}
+.nav-tabs li a{
+	padding: 10px 8px;
+}
+}
